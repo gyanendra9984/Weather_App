@@ -1,0 +1,14 @@
+# dependencies
+weather_app/node_modules
+
+# testing
+weather_app/coverage
+
+# production
+weather_app/build
+
+# misc
+weather_app/.env
+
+# Editor directories and files
+weather_app/.vscode/
