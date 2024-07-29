@@ -33,7 +33,7 @@ const Hourly_forecast = ({ weather }) => {
 
     return (
         <div className="w-full h-full flex justify-center items-center">
-            <div className="w-[95%] md:w-[70%] h-[22rem] md:h-[27rem] py-2 md:py-4 bg-gray-100 rounded-md overflow-y-auto custom-scrollbar">
+            <div className="w-[95%] md:w-[70%] h-[26rem] md:h-[27rem] py-2 md:py-4 bg-gray-100 rounded-md overflow-y-auto custom-scrollbar">
                 <div className="flex flex-wrap justify-center gap-2 md:gap-4">
                     {hours.map((hour) => (
                         <div key={hour.datetime} className="flex flex-col items-center p-4 bg-white shadow-md rounded-md w-40">
